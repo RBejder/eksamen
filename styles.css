@@ -26,25 +26,36 @@
   color: white;
 }
 
-.overskrift{
-    font-size: 45px;
-    text-align: center;
-    font-family: 'arial', cursive;
-    color: white;
-    margin-top: 200px;
-
-}
 .container {  
     display: grid;  
     grid-template-columns: 1fr 1fr;  
     grid-template-rows: 50px 50px;  
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .profile{
+    max-width: 500px;
+  }
+
+    img {
+    max-width: 100%
+  }
+.overskrift{
+    font-size: 5vw;
+    text-align: center;
+    font-family: 'arial', cursive;
+    color: white;
+    margin-top: 100px;
+
 }
 .kontakt{
-  font-size: 25px;
+  font-size: 2vw;
   text-align: center;
   font-family: 'arial', cursive;
   color: white;
-  margin-top: 300px;
+  margin-top: 100px;
 }
 .kontakt2{
   font-size: 25px;
@@ -71,19 +82,9 @@ body {
     text-align: center;
     padding: 32px;
   }
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center
-    max-with: 40%
-  }
-  
-  img {
-    max-width: 100%
-  }
   
   .image {
-    flex-basis: 30%
+    flex-basis: 100%
   }
   
   .text {
